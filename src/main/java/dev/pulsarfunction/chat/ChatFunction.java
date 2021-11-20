@@ -43,7 +43,7 @@ public class ChatFunction implements Function<String, String> {
         String result = "Neutral";
 
         if ( message == null || message.trim().length() <=0 ) {
-            return result;
+            return result; 
         }
 /**
  * 13:26:56.440 [main] INFO  ai.djl.pytorch.jni.LibUtils - Downloading https://djl-ai.s3.amazonaws.com/publish/pytorch-1.6.0/cpu/osx/native/lib/libc10.dylib.gz ...

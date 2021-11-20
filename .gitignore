@@ -1,0 +1,6 @@
+.idea/
+libtorch/
+.backup
+*.backup
+target/
+*.sh
